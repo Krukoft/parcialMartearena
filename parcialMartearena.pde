@@ -29,4 +29,7 @@ void draw() {
       contador++;
     }
   }
+  fill(255);
+  textSize(32);
+  text("Puntaje:" + contador, 10, height - 10);
 }
